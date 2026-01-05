@@ -1,0 +1,21 @@
+[project]
+name = "chemicals"
+version = "0.1.0"
+description = "A minimal Python library managed with uv."
+readme = "README.md"
+authors = [
+    { name = "Mo Bhasin", email = "mbhasin@alixpartners.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "certifi>=2025.11.12",
+    "openai>=2.14.0",
+    "pandas>=2.3.3",
+    "pdfplumber>=0.11.8",
+    "pydantic>=2.12.5",
+    "tqdm>=4.67.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.7,<0.10.0"]
+build-backend = "uv_build"

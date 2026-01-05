@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.venv/
+.idea/
+.vscode/
+
+# uv
+.uv/
+
+# Data outputs and sources
+data/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
