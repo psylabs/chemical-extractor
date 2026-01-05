@@ -11,7 +11,8 @@ Getting started
 
 Project structure
 -----------------
-- `src/chemicals/`: library code (currently `hello()` helper).
+- `src/chemicals/`: library code.
+- `extractor.py`: main extraction script.
 - `pyproject.toml`: project metadata and dependencies.
 
 Common commands
