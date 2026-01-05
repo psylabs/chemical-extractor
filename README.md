@@ -7,7 +7,7 @@ Getting started
 ---------------
 1) Ensure Python 3.13+ is available.  
 2) Install dependencies with `uv sync`.  
-3) Run the demo with `uv run python -c "import chemicals as c; print(c.hello())"`.
+3) Run the extractor: `uv run python extractor.py`
 
 Project structure
 -----------------
